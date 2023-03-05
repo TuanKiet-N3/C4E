@@ -1,0 +1,63 @@
+/* Viet code CSS*/
+/*chon tat ca the h1 tren trang web*/
+/* h1 {
+    color: red;    
+}
+
+p {
+    color: green;
+}
+
+/* # dung cho id */
+#special-heading {
+
+    color: orange;
+}
+
+/* . la dung cho class */
+.text-blue {
+    color: blue;
+}
+/* do uu tien (0, 0, 0) */
+* {
+    color: chocolate;
+}
+
+
+/* do uu tien (0, 0, 1) */
+div {
+    color: blueviolet;
+}
+/* do uu tien (0, 1, 0) */
+.text-brown {
+    color: olivedrab ;
+/* do uu tien (1, 0, 0) */    
+}
+#my-div {
+    color: royalblue !important;
+}
+
+/* Nhung thuoc tinh - gia tri ==> dinh dang text*/
+#test-text{
+    font-size: 40px; /*font-size:40px (px la don vi) co chu*/ 
+    font-style: italic; /*kieu chu*/
+    text-decoration: line-through; /*trang tri cho chu*/
+    font-family: 'Arial'; /*phong chu*/
+    text-transform: uppercase; /*bien doi chu*/
+} 
+
+/* Nhung thuoc tinh - gia tri ==> dinh dang khoi noi dung (Box model) */
+
+#my-box {
+    background-color: pink; /*mau nen*/
+    width: fit-content; /* bang voi noi dung */
+    /* width: min-content; max-content */
+    width: 400px; /*do rong thuc te*/
+    width: 50%; /*do rong to nho cung chi la 50% khong zoom len duoc*/
+    height: 170px; /*chieu cao*/
+    border: 10px solid green; /* border duong vien, dashed la cham cham, thay dashed = solid la vien full */
+    border-radius: 10px; /* bo cac goc vien*/
+    padding: 20px;  /* khoang cach tu vien vao noi dung, anh huong den kich thuoc cua khoi*/
+    box-sizing: border-box;/*khong thay doi khoang khoi*/   
+    border-bottom: 1px solid black; /* duong vien phia duoi, right = phai,left = trai, top =  tren) */
+}

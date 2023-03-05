@@ -1,0 +1,21 @@
+input {
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+hr {
+   border-bottom: 1px solid gainsboro;
+}
+textarea {
+    border: 1px solid gainsboro;
+
+}
+p {
+    margin-bottom: 6px; /*khoang cach giua cac dong*/
+}
+body {
+    display: flex;
+    
+}
+.main {
+    background-color: #99ebff
+}
