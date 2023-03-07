@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding:0;
+}
 
 .col-md-3{
     background-color: darkslategrey;
@@ -29,7 +33,7 @@
     background-color:cadetblue;
     width: auto;
     text-align: left;
-    height: auto;
+    height: 845px;
     padding: 20px;
 }
 .text {
