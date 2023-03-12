@@ -1,81 +1,162 @@
-.container {
-	width: 1000px;
-	margin: 0 auto;
-    background-color: #72706b;
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.content-web {
+    background-color: aqua;
+    width: 100%;
     height: 1000px;
 }
-.menu {
-	background: #ffc107;
+.head {
+	background-color: #111110;
+    display: flex;
     position: fixed;
+    height: 100px;
     width: 100%;
-    z-index: 2;
-    top: 0;
+    justify-content: space-around;
+    justify-items: center;
 }
-.list {
-	display: table;
-    width: 100%;
+.logo img{
+    background-color: #111110;
+    text-align: center;
+    padding-top: 10px;
 }
-.list .item {
-	display: table-cell;
-	text-align: center;
-	position: relative;
+.menu {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    color: white;
+    text-align: center;
+    /* position: relative; */
 }
-.list .item > a {
-	text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-    color: #fff;
+.head > .menu > a {
+    font-size: 50px;
 }
-.list .item > a:hover {
-	color:green;
+.menu > li {
+    list-style: none;
+    position: relative;
 }
-.list .item:hover > .child-menu {
-	display: block;
+
+.menu>li:hover>a{
+    color: rgb(178, 240, 108);
 }
-.child-menu {
-	position: absolute;
-    background: #fff;
-    box-shadow: 0 0 10px #d7d7d7;
-    width: 100%;
-    display: none;
-    z-index: 1;
-}
-.child-menu > li {
-	list-style: none;
-	position: relative;
-}
-.child-menu > li:hover > .child-sub-menu {
-	display: block;
-}
-.child-menu > li > a {
-	display: block;
-    padding: 10px;
+a {
+    display: block;
+    padding: 18px 20px;
     text-decoration: none;
-    font-size: 15px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 35px;
+}
+.menu-child {
+    top: 100px;
+    width: 150px;
     text-align: left;
-    color: #000;
+    border: 1px solid rgb(83, 81, 81);
 }
-.child-menu > li > a:hover {
-	color: #ffc107;
-}
-.child-sub-menu {
-	display: none;
-	position: absolute;
-    left: 100%;
-    top: 0px;
-    width: 100%;
-    background: #fff;
-    box-shadow: 0 0 10px #d7d7d7;
-}
-.child-sub-menu > li {
-	list-style: none;
-}
-.child-sub-menu > li > a {
-	display: block;
-    padding: 7px;
+.menu-child > li{
+    list-style: none;
+ }
+ .menu-child > li > a{
+    display: block;
     text-decoration: none;
-    color: #000;
+ }
+    
+
+.fa-magnifying-glass, .fa-cart-shopping, .fa-thumbs-up {
+    color: white;
+    padding: 40px 20px;
 }
-.child-sub-menu > li > a:hover {
-	color: #ffc107;
-}   
+.menu .menu-child {
+    position: absolute;
+    background-color: #111110;
+    padding: 5px 10px;
+    display: none;
+    left: -30px;
+}
+.menu li:hover > .menu-child {
+    display: block;
+}
+.menu .menu-child a{
+    padding: 8px 15px;
+    border-bottom: 1px solid rgb(194, 192, 190);
+}
+.menu .menu-child li:hover>a{
+    color: crimson;
+}
+
+.menu .menu-child .menu-child{
+    left: 170px;
+    top: -1px;
+}
+.menu .menu-child .menu-child li:hover>a{
+    color: rgb(175, 112, 211);
+}
+.icon>i:hover {
+    color: lightsalmon;
+}
+.content {
+    height: 800px;
+}
+
+.footer {
+    background-color: #212121;
+    width: 100%;
+    height: 460px;
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: whitesmoke;
+}
+.table > a{
+    display: block;
+    padding: 30px;
+}
+.table-child {
+    border-right: 1px solid rgba(243, 240, 234, 0.822);
+    height: 100px;
+    text-align: center;
+    line-height: 1.5;
+}
+.contact {
+    background-color: bisque;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.table1 {
+    color: black;
+}
+.support > li {
+    list-style: none;
+    color: rgb(175, 170, 170);
+    font-size: 15px;
+    line-height: 3;
+}
+.support > li:hover {
+    color: rgb(223, 188, 188);
+}
+i {
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+li img {
+    font-size: 40px;
+    width: 100%;
+    height: 70px;
+}
+.copy-right {
+    background-color: bisque;
+    text-align: center;
+    color: #a7a79e;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    border-top: 1px solid rgb(221, 216, 216);
+}
