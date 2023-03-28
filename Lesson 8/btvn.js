@@ -17,15 +17,15 @@
 // Bài 2: Nhập vào 2 tham số a, b, in ra thông báo so sánh giữa 2 số.
 // let a = Number(prompt('Nhập vào số a:'));
 // let b = Number(prompt('Nhập vào số b:'));
-// for(let i = a; i <= b; i++){
-//     if (a < b) { 
+
+//     if (a > b) { 
 //         console.log('a lớn hơn b');
-//     } else if (a = b) {
+//     } else if (a == b) {
 //         console.log('a và b bằng nhau');
 //     } else {
-//         console.log('a lớn hơn b');
+//         console.log('a nhỏ hơn b');
 //     }
-// }
+
 
 //Bài 3: Viết hàm nhập vào một số nguyên dương, in ra thông báo số đó là chẵn hay lẽ.
 // let a = Number(prompt('Nhập số nguyên dương:'))
@@ -83,5 +83,41 @@
 
 //Bài 6: Nhập vào một giá trị bất kì, kiểm tra giá trị là số nguyên, số thập phân hay là chữ.
 
+// let a = prompt('Nhập giá trị bất kỳ:')
 
+// if(a == string){
+//     console.log((a) + 'la chuỗi')
+// }else(a ==)
+
+//Bài 7: in ra màn hình hình vuông cạnh n, (n >= 2)
+// let n = 4
+// for(let i = 0 ; i < n; i++ ){
+//     let str = ' '
+//     for (let t = 0; t <= n; t++ ){
+//         str += '*'
+//     }
+//     console.log(str+i)
+// } 
+
+//Bài 8:Nhập vào 2 số m,n (m & n >= 2), in ra HCN có rộng m, cao là n:
+let m = 3
+let n = 4
+for(let i = 0 ; i < n; i++ ){
+        let str = ''
+        for (let t = 0; t < m; t++ ){
+            str += '*'
+        }
+        console.log(str+i)
+} 
+
+//Bài 9: In ra màn hình tam giác vuông cân, với độ dài cạnh n. (n >= 3)
+// let n = 6
+
+// for (let i = 0; i < n; i++) {
+//     let str = ''
+//     for (let t = 0; t < i + 1; t++) {  
+//         str += '*'
+//     }
+//     console.log(str+i)
+// }
 
